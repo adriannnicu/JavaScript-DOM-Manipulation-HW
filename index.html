@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JS DOM Manipulation Homework</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main>
+            <div id="successMessage">Thank you for contacting us!</div>
+            <div class="form-class">
+                <form name="myForm" onsubmit="validateForm(event)">
+                    <input type="text" id="name" placeholder="First Name" />
+                    <input type="text" id="lastname" placeholder="Last Name" />
+
+                    <p>Gender</p>
+                    <div id="gender">
+                        <input type="radio" id="male" name="gender" value="M">
+                        <label for="male">M</label><br>
+                        <input type="radio" id="female" name="gender" value="F">
+                        <label for="female">F</label><br>
+                    </div>
+                    <p id="check-gender"></p>
+                    
+                    <textarea id="details" rows="4" cols="50" placeholder="Your message here..."></textarea>
+                    <div class="btn-slot">
+                        <input class="btn-succes" type="submit" value="Submit">
+                    </div>
+                </form>
+                <img src="./image.webp" alt="">
+            </div>
+        </main>
+        <script src="./script.js" async defer></script>
+    </body>
+</html>

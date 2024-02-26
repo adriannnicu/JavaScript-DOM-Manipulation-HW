@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 4px;
+}
+
+textarea {
+    padding: 4px;
+}
+
+.form-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+#check-gender {
+    color: red;
+}
+
+.btn-slot {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.btn-succes {
+    background-color: rgb(0, 124, 124);
+    color: #fff;
+    padding: 6px;
+    width: 70px;
+    border: none;
+    border-radius: 4px;
+}
+
+#successMessage {
+    display: none;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
